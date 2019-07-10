@@ -41,6 +41,7 @@ Vagrant.configure("2") do |config|
     google.name = "test-tableau-server"
     google.image = "centos-7-v20190619"
     google.machine_type = "n1-standard-16"
+    google.disk_size = 200
     google.zone = "us-central1-a"
     google.metadata = {'custom' => 'metadata', 'testing' => 'tableau-server'}
     google.tags = ['vagrantbox', 'dev']
