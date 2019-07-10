@@ -1,0 +1,28 @@
+---
+
+galaxy_info:
+  author: Amit Patole
+  description: Tableau for Linux.
+  company: "myownlcoud.us"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - jessie
+        - wheezy
+        - stretch
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - Tableau

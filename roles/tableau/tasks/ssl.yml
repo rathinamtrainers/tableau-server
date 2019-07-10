@@ -1,0 +1,17 @@
+---
+
+- name: TABLEAU SSL | Create directory
+  file:
+    state: directory
+    path: /etc/tableaussl
+    owner: root
+    group: root
+    mode: 0700
+
+- name: TABLEAU SSL | Create reload helper
+  template:
+    src: etc/tableaussl/ssl_reload_helper.j2
+    dest: /etc/tableaussl/reload_command
+    owner: root
+    group: root
+    mode: 0700

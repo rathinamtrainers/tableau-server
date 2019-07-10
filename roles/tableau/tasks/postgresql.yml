@@ -1,0 +1,4 @@
+---
+
+- name: TABLEAU POSTGRES | Install Postgresql Tableau ODBC
+  yum: "{{ tableau_postgresql_odbc_rpm }}"
