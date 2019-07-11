@@ -24,9 +24,9 @@ $script = <<-SCRIPT
 SCRIPT
 
 # Customize these global variables
-$GOOGLE_PROJECT_ID = "upheld-pursuit-244622"
-$GOOGLE_JSON_KEY_LOCATION = "~/upheld-pursuit-244622-bb4677d3167c.json"
-$LOCAL_USER = "osadmin"
+$GOOGLE_PROJECT_ID = "your GOOGLE_PROJECT_ID"
+$GOOGLE_JSON_KEY_LOCATION = "location of GOOGLE_JSON_KEY"
+$LOCAL_USER = "your local username"
 $LOCAL_SSH_KEY = "~/.ssh/id_rsa"
 
 Vagrant.configure("2") do |config|
